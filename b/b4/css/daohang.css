@@ -1,9 +1,25 @@
-ul{
-    list-style: none;
+*{
     margin: 0;
     padding: 0;
+}
+ul{
+    list-style: none;
     background-color: aqua;
+    width: 200px;
+    height: 150px;
 }
 li a{
     text-decoration: none;
+    width: 200px;
+    display: block;
+}
+ul li{
+    /*width: 500px;*/
+    line-height: 29px;
+}
+li a:hover{
+    background-color: slategray;
+}
+li a:active{
+    background-color: chartreuse;
 }
