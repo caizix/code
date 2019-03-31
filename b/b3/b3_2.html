@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>batman</title>
+    <style type="text/css">
+        #h1,#m1{
+            display: none;
+        }
+        a{
+            /*去掉下划线*/
+            /*text-decoration: none;*/
+            /*上下划线*/
+            /*text-decoration: overline;*/
+            /*管穿线*/
+            text-decoration: line-through;
+        }
+        /*点击*/
+        /*a:active + img{*/
+            /*display: block;*/
+        /*}*/
+        /*移入*/
+        /*相邻选择器*/
+        /*a:hover+img{*/
+            /*display: block;*/
+        /*}*/
+        /*匹配选择器*/
+        #b1:hover ~ #m1{
+            color: green;
+            display: block;
+        }
+        #z1:hover ~ #h1{
+            color: green;
+            display: block;
+        }
+        a:visited{
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <a id="b1" href="">BataMan</a>
+    <a id="z1" href="">zhahuhu</a>
+    <img id="m1" src="./static/img/1.jpg">
+    <img id="h1" src="./static/img/2.jpg">
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS引入</title>
+    <!--嵌入式引入-->
+    <style type="text/css">
+        .a{
+            width: 80%;
+            height: 100px;
+            margin: 0 auto;
+            background-color: red;
+        }
+        p{
+            color: #ff381f;
+        }
+        span{
+            color: black;
+        }
+    </style>
+    <!--外部引入-->
+    <link rel="stylesheet" type="text/css" href="./static/CSS/test_css.css">
+</head>
+<body>
+    <div class ="a" id="a1" style="">
+        <p>锄禾日当午，<span>汗滴</span>河下苦，谁知盘中餐，<span>粒粒</span>皆辛苦</p>
+    </div>
+</body>
+</html>
