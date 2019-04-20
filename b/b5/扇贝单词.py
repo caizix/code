@@ -4,32 +4,23 @@
 2. 主要联系目的是xpath
 3. 理论上讲不需要登录
 4. https://www.shanbay.com/wordlist/104899/202159/
-https://www.shanbay.com/wordlist/104899/202159/?page=1
 '''
 from urllib import request
 from lxml import etree
 
 import json
 
-#词汇表
 words = []
-
-
 def shanbei(page):
-    url = "https://www.shanbay.com/wordlist/104899/202159/?page=%s"%page
+    url = "https://www.shanbay.com/wordlist/187711/540709/?page=%s"%page
     print(url)
 
     rsp = request.urlopen(url)
-
     html = rsp.read()
 
-    #解析html
     html = etree.HTML(html)
-
     tr_list = html.xpath("//tr")
 
-
-    # 遍历每个tr元素，每一个tr对应一个单词和介绍
     for tr in tr_list:
         '''
         查相应的单词和介绍
@@ -55,7 +46,4 @@ def shanbei(page):
 
 
 if __name__ == '__main__':
-
-    shanbei(2)
-
-
+    shanbei(3)
