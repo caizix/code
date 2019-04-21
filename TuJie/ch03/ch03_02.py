@@ -17,6 +17,5 @@ for i in range(8):
 print('\n-------------------------------------')
 select(data)
 print("排序后的数据为：")
-for i in range(8):
-    print('%3d' %data[i],end='')
+showdata(data)
 print('')
