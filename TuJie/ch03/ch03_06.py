@@ -1,3 +1,4 @@
+# 快速排序
 import random
 
 def inputarr(data,size):

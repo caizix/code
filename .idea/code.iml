@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/爬虫练讲义习/e14/e14/spiders" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/爬虫练讲义习/e14" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7.0 (C:\Users\19849\Python37\python.exe)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7.1 (C:\Anaconda3\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

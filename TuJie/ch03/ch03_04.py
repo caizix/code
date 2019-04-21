@@ -24,7 +24,7 @@ def shell(data,size):
 
 def main():
     data=[16,25,39,27,12,8,45,63]
-    print('原始数组是：     ')	
+    print('希尔排序，原始数组是：     ')
     showdata (data)
     print('-----------------------------------------')
     shell(data,SIZE)
